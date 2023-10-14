@@ -7,6 +7,6 @@ $birth_day = filter_input(INPUT_POST, 'birth_day');
 if (empty($fname) || empty($lname) || empty($email) || empty($birth_day)) {
     header("Location: register.html?msg=Please fill in all required fields");
 } else {
-    header("Location: lab 2.html");
+    header("Location: lab 3/lab 2.html");
 }
 ?>
